@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <img alt="Repository issues" src="https://img.shields.io/github/issues/pedroarm/Podfy?color=58C0EC&labelColor=121214">
+  <img alt="Repository issues" src="https://img.shields.io/github/issues/gabrielgirami/Backend-Podfy?color=58C0EC&labelColor=121214">
   
-  <img alt="Stars" src="https://img.shields.io/github/stars/pedroarm/Podfy?label=stars&message=MIT&color=58C0EC&labelColor=121214">
+  <img alt="Stars" src="https://img.shields.io/github/stars/gabrielgirami/Backend-Podfy?label=stars&message=MIT&color=58C0EC&labelColor=121214">
 
-  <img alt="Last Commits" src="https://img.shields.io/github/last-commit/pedroarm/Podfy?color=58C0EC&labelColor=121214">
+  <img alt="Last Commits" src="https://img.shields.io/github/last-commit/gabrielgirami/Backend-Podfy?color=58C0EC&labelColor=121214">
 </p>
 
 ## Getting Started
@@ -33,18 +33,34 @@ $ npm run dev
 $ yarn dev
 ```
 
-Open [http://localhost:8080(http://localhost:8080) with your browser to see the result and test by Insomnia or Postman with the following model:
-- {
-- "name": "Gabriel Girami",
-- "email": "gabriel@gabriel.com",
-- "password": "123456"
-- }
+Open (http://localhost:3333) with your API Client (Insomnia or Postman) and test with the following model:
+
+```json
+{
+ "name": "Gabriel Girami",
+ "email": "gabriel@gabriel.com",
+ "password": "123456"
+}
+```
+
+if it succeeds, you will have something like this:
+
+```json
+{
+  "_id": "60a01cf72ba5d10f7a3ab852",
+  "name": "Gabriel Girami",
+  "email": "gabriel@gabriel.com",
+  "password": "$2a$10$G8EFqPx3EhkAMrK.L9pC/uSq8zSvCvCreuJ3Lne7MXXP9l31YR2yK",
+  "createdAt": "2021-05-15T19:11:51.497Z",
+  "__v": 0
+}
+```
 
 ## Project
 
 The Podfy is a academic project. A platform developed by Pedro & Gabriel for passionates by podcasts in it we can listen to some podcasts. This is a simple project and is able to turn better in future updates.
 
-To see the **api**, click here: [Podfy API](https://github.com/gabrielgirami/Backend-Podfy)</br>
+To see the **Frontend**, click here: [Podfy Frontend](https://github.com/pedroarm/Podfy)</br>
 
 
 ## Technologies
