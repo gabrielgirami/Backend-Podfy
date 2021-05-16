@@ -33,7 +33,12 @@ $ npm run dev
 $ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:8080(http://localhost:8080) with your browser to see the result and test by Insomnia or Postman with the following model:
+- {
+- "name": "Gabriel Girami",
+- "email": "gabriel@gabriel.com",
+- "password": "123456"
+- }
 
 ## Project
 
